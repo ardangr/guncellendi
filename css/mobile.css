@@ -1,0 +1,61 @@
+#navbar{
+    flex-direction: column;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    overflow: hidden;
+    height: 80px;
+
+}
+#training .items{
+    
+flex-direction: column;
+
+
+}
+#training .items .item{
+    width: 100%;
+}
+.courses .course{
+    flex-direction: column;
+    
+}
+.courses .course img{
+  display: block; margin: auto;       /* ortaladık*/
+  position: relative;
+
+}
+.courses .course .course-image span{
+    background: red;
+    padding: 0.25rem;
+    color: white;
+    border-radius: 4px;
+    position: absolute;
+    top: 0px;
+    left: 36px;
+    
+    
+}
+.courses .course .course-info .title{
+    letter-spacing: 1.2px;
+    font-weight: 700;                        
+    margin-bottom: 0.25rem;
+    text-align: center;
+}
+.courses .course .course-info .description{
+    text-align: center;
+    letter-spacing: 1.2px;
+   opacity: 0.6;
+    margin-bottom: 0.25rem;
+}
+.courses .course .course-info .instructor{
+    text-align: center;
+    opacity: 0.6;
+    font-size: 0.8rem;
+    margin-bottom: 0.25rem;
+}
+.courses .course .course-info .rating{
+    text-align: center;
+    opacity: 0.6;
+    font-size: 0.8rem;
+    margin-bottom: 0.25rem;
+}

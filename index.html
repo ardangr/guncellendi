@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arda Üngör / Web Geliştirme</title>
+    <meta name="keyword" content="Java,HTML,CSS">
+    <meta name="description" content="Arda Üngör / Web Geliştirme">
+    <!-- Fonts google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+ rel="stylesheet">
+ <!-- Font awesome  -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- TABLET/MOBİL  -->
+    <link rel="stylesheet" media="(max-width:768px)" href="css/tablet.css">
+    <link rel="stylesheet" media="(max-width:500px)" href="css/mobile.css">
+</head>
+<body>
+    <header class="bg-dark-blue">
+        <div class="container">
+            <nav id="navbar">
+                <h1 class="heading-small"> ARDA ÜNGÖR</h1>
+                <ul>
+                    <li><a href="#home">ANA SAYFA</a></li>
+                    <li><a href="#trainig">EĞİTİMLER</a></li>
+                    <li><a href="#courses">KURSLAR</a></li>
+                    <li><a href="#contact">İLETİŞİM</a></li>
+                    
+                </ul>
+                        </nav>
+        </div>
+        
+    </header>
+    <section id="home">
+        <img src="ben1.jpg" alt="arda">
+<div class="name text-center">
+    <h2 class="heading-big">ARDA ÜNGÖR</h2>
+    <p>Beginner Engineer/Student</p>
+</div>
+<a href="#courses" class="btn btn-primary ">Kurslara Git</a>
+
+    </section>
+    <section id="training" class="bg-dark-blue">
+
+        <h3 class="text-center heading-medium">Eğititmler</h3>
+        <div class="items">
+            <article class="item">
+                <i class="fa-solid fa-pencil"></i>
+                <h3>Sınıf İçi Eğitimler</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, reiciendis.</p>
+            </article>
+            <article class="item">
+                <i class="fa-solid fa-pencil"></i>
+                <h3>Online İçerikler</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, reiciendis.</p>
+            </article>
+            <article class="item">
+                <i class="fa-solid fa-pencil"></i>
+                <h3>Konferanslar</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, reiciendis.</p>
+            </article>
+        </div>
+    </section>
+    <section id="courses">
+<h3 class="text-center heading-medium"> KURSLAR</h3>
+<div class="container">
+    <div class="courses">
+        <div class="course">
+            <div class="course-image">
+                <img src="python.jpg" alt="Python">
+                <span>%90 İndirim</span>
+               
+            </div>
+            <div class="course-info">
+                <div class="title">
+KOMPLE Phyton GELİŞTİRME KURSU
+                </div>
+                <div class="description">
+                    KOMPLE Phtyon GELİŞİTİRCİ KURSU/ SIFIRDAN YAZILIM ÖĞRENİN
+                </div>
+                <div class="instructor">
+                    Arda Üngör Deü Bilgisayar Programlama
+                </div>
+                <div class="rating">4.6/(10oylama)</div>
+            </div>
+        </div>
+    </div>
+    <div class="courses">
+        <div class="course">
+            <div class="course-image">
+                <img src="java.jpg" alt="Python">
+                <span>%50 İndirim</span>
+               
+            </div>
+            <div class="course-info">
+                <div class="title">
+KOMPLE JAVA GELİŞTİRME KURSU
+                </div>
+                <div class="description">
+                    KOMPLE JAVA GELİŞİTİRCİ KURSU/ SIFIRDAN YAZILIM ÖĞRENİN
+                </div>
+                <div class="instructor">
+                    Arda Üngör Deü Bilgisayar Programlama
+                </div>
+                <div class="rating">4.6/(100oylama)</div>
+            </div>
+        </div>
+    </div>
+    <div class="courses">
+        <div class="course">
+            <div class="course-image">
+                <img src="javascript.jpg" alt="Python">
+                <span>%70 İndirim</span>
+               
+            </div>
+            <div class="course-info">
+                <div class="title">
+KOMPLE JAVAscrpit GELİŞTİRME KURSU
+                </div>
+                <div class="description">
+                    KOMPLE JAVAscript GELİŞİTİRCİ KURSU/ SIFIRDAN YAZILIM ÖĞRENİN
+                </div>
+                <div class="instructor">
+                    Arda Üngör Deü Bilgisayar Programlama
+                </div>
+                <div class="rating">4.6/(10oylama)</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    </section>
+    <footer id="contact" class="bg-dark-blue">
+<div class="contact-form">
+    <form>
+        <h4 class="text-center heading-medium" >bana ulaşın</h4>
+        <div class="form-group">
+            <label for="name">İsim</label>
+            <input type="text"
+             name="name" 
+             class="form-control" 
+             id="name" 
+             placeholder="İsim"/>
+             
+             
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="text"
+             name="email" 
+             class="form-control" 
+             id="email" 
+             placeholder="email"/>
+             
+             
+        </div>
+        <div class="form-group">
+            <label for="message">Mesaj</label>
+            <textarea name="message" id="message" placeholder="mesajınız" class="form-control"  rows="5"></textarea>
+             
+             
+        </div>
+        <button type="submit" class="btn btn-block" >GÖNDER </button>
+    </form>
+    <ul>
+        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+    </ul>
+</div>
+
+    </footer>
+</body>
+</html>
